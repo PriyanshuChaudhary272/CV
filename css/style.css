@@ -33,7 +33,7 @@
 }
 .navlist{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 8px 0;
   width: 40%;
 }
@@ -244,7 +244,10 @@ hr{
 background: linear-gradient(61deg, rgba(193,191,255,1) 0%, rgba(199,228,234,1) 38%, rgba(254,213,173,1) 56%, rgba(242,206,219,1) 90%, rgba(223,206,242,1) 98%);
   color: #EAF6F6;
   padding: 20px;
-  margin-top: 50px;
+  /* position: absolute;
+  bottom: auto; */
+  width: 100%;
+  margin-top: 30px;
 }
 .footer-link{
   color: #2F5D62;
@@ -307,6 +310,7 @@ max-width: 100%;
 }
 .top-contact{
   display: flex;
+  height: 100vh;
   justify-content: center;
 }
 
